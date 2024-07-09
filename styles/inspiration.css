@@ -172,3 +172,22 @@ main{
     font-weight: 700;
 }
 
+/* inspiration section started */
+.inspiration{
+    margin-top: 45px; 
+    padding-right: 120px;
+    padding-left: 120px;
+    margin-bottom: 120px;
+}
+.video{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    
+}
+.videeo{
+    padding: 25px;
+    /* border-radius: 16px; */
+    border-radius: 35px;
+
+}
