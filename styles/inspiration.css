@@ -2,13 +2,18 @@
 
 /* font-family: "Azeret Mono", monospace; */
 
-
+*{
+    padding: 0px;
+    margin: 0;
+}
 /* nav bar styles */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0px 200px;
+    margin-bottom: 25px;
+    margin-top: 25px;
 
 }
 
@@ -33,7 +38,7 @@ nav ul li{
 } */
 .btn-primary{
     width: 228px;
-    height: 58px;
+    height: 48px;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
@@ -46,7 +51,7 @@ nav ul li{
 
 /* banner styles */
 .banner{
-    width: 1235px;
+    width: 1270px;
     height: 550px;
     /* border: 10px solid red; */
     margin: 0 auto;
@@ -100,6 +105,7 @@ main{
     max-width: 946px;
     margin: 0 auto;
     /* border: 5px solid red; */
+    font-family: Azeret Mono;
 }
 
 .devlopment-section{
@@ -177,7 +183,7 @@ main{
     margin-top: 45px; 
     padding-right: 120px;
     padding-left: 120px;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
 }
 .video{
     box-sizing: border-box;
@@ -191,3 +197,134 @@ main{
     border-radius: 35px;
 
 }
+
+/* next target section styles started */
+
+.target{
+    margin-top: 0px; 
+    padding-right: 120px;
+    padding-left: 120px;
+    margin-bottom: 60px;
+}
+
+.target-content{
+    display: flex;
+    gap: 24px;
+    
+
+}
+.target-content h4{
+    color: rgb(13, 19, 33); 
+    font-size: 24px;
+    font-weight: 800; 
+}
+.target-content p{
+    color: rgb(13, 19, 33,0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+.target-content a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+.target-box1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 35px;
+}
+.target-box2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 35px;
+}
+.target-box3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 35px;
+}
+/* support section started */
+
+.support{
+    width: 700px;
+    height: 200px;
+    margin: 0 auto;
+    background-image:linear-gradient( rgba(0, 0, 0,0.2),rgba(0, 0, 0,0.2),rgba(0, 0, 0, 0.2)),url(../assets/handshake.jpg);
+
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: 700px 200px;
+    margin-bottom: 60px;
+    
+}
+.support-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.support-content h3{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 700;
+}
+.support-content p{
+    color: rgb(255, 255, 255,0.7);
+    font-size: 10px;
+    font-weight: 400;
+    
+}
+.box{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    
+}
+.box2{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* footer styles  */
+footer{
+    font-family: "Azeret Mono", monospace;
+}
+.foot{
+    width: 1270px;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.insta{
+    width: 36px;
+    height: 36px;
+}
+.foot-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.foot-content h4{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
