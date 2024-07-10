@@ -8,6 +8,7 @@
 }
 /* nav bar styles */
 nav{
+    font-family: Azeret Mono;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,6 +18,9 @@ nav{
 
 }
 
+header{
+    font-family: Azeret Mono;
+}
 
 .nav-title{
     color: rgb(13, 19, 33);
@@ -61,6 +65,7 @@ nav ul li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 .banner-title{
@@ -84,6 +89,7 @@ nav ul li{
     text-align: center;
     padding-left: 250px;
     padding-right: 250px;
+    
 }
 .btnn-primary{
     color: rgb(255, 255, 255);
@@ -97,6 +103,13 @@ nav ul li{
     display: block;
     margin: auto;
     /* padding-left: 550px; */
+
+}
+/* .banner-content{
+    gap: 25px;
+} */
+.banner-content a{
+    text-decoration: none;
 }
 
 /* main section styles */
@@ -135,7 +148,6 @@ main{
     /* margin: 0px 200px; */
     padding: 35px;
     border-radius: 16px;
-
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 
 }
@@ -169,6 +181,7 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 30px;
 }
 
 .devlopment-section h4{
@@ -263,6 +276,7 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-top: 40px;
 }
 .support-content h3{
     color: rgb(255, 255, 255);
@@ -301,7 +315,7 @@ main{
 footer{
     font-family: "Azeret Mono", monospace;
 }
-.foot{
+#foot{
     width: 1270px;
     height: 100px;
     border-radius: 16px;
@@ -327,4 +341,3 @@ footer{
     font-weight: 600;
     
 }
-
